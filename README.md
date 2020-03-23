@@ -18,8 +18,8 @@ My solutions for Project Euler problems
 |12|[Highly Divisible Triangular Number](https://projecteuler.net/problem=12)|[Python](./python/problem-12.py), [Java](./java/problem-12.java)|
 |13|[Large Sum](https://projecteuler.net/problem=13)|[Python](./python/problem-13.py), [Java](./java/problem-13.java)|
 |14|[Longest Collatz Sequence](https://projecteuler.net/problem=14)|[Python](./python/problem-14.py), [Java](./java/problem-14.java)|
-|15|[Lattice Paths](https://projecteuler.net/problem=15)|[Java](./java/problem-15.java)|
-|16|[Power Digit Sum](https://projecteuler.net/problem=16)|[Java](./java/problem-16.java)|
+|15|[Lattice Paths](https://projecteuler.net/problem=15)|[Python](./python/problem-16.py), [Java](./java/problem-15.java)|
+|16|[Power Digit Sum](https://projecteuler.net/problem=16)|[Python](./python/problem-16.py), [Java](./java/problem-16.java)|
 |18|[Maximum Path Sum I](https://projecteuler.net/problem=18)|[Java](./java/problem-18.java)|
 |19|[Counting Sundays](https://projecteuler.net/problem=19)|[Java](./java/problem-19.java)|
 |20|[Factorial Digit Sum](https://projecteuler.net/problem=20)|[Java](./java/problem-20.java)|
