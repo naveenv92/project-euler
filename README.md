@@ -14,8 +14,8 @@ My solutions for Project Euler problems
 |8|[Largest Product in a Series](https://projecteuler.net/problem=8)|[Python](./python/problem-8.py), [Java](./java/problem-8.java)|
 |9|[Special Pythagorean Triplet](https://projecteuler.net/problem=9)|[Python](./python/problem-9.py), [Java](./java/problem-9.java)|
 |10|[Summation of Primes](https://projecteuler.net/problem=10)|[Python](./python/problem-10.py), [Java](./java/problem-10.java)|
-|11|[Largest Product in a Grid](https://projecteuler.net/problem=11)|[Java](./java/problem-11.java)|
-|12|[Highly Divisible Triangular Number](https://projecteuler.net/problem=12)|[Java](./java/problem-12.java)|
+|11|[Largest Product in a Grid](https://projecteuler.net/problem=11)|[Python](./python/problem-11.py)[Java](./java/problem-11.java)|
+|12|[Highly Divisible Triangular Number](https://projecteuler.net/problem=12)|[Python](./python/problem-12.py), [Java](./java/problem-12.java)|
 |13|[Large Sum](https://projecteuler.net/problem=13)|[Python](./python/problem-13.py), [Java](./java/problem-13.java)|
 |14|[Longest Collatz Sequence](https://projecteuler.net/problem=14)|[Java](./java/problem-14.java)|
 |15|[Lattice Paths](https://projecteuler.net/problem=15)|[Java](./java/problem-15.java)|
