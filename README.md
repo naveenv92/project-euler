@@ -20,11 +20,13 @@ My solutions for Project Euler problems
 |14|[Longest Collatz Sequence](https://projecteuler.net/problem=14)|[Python](./python/problem-14.py), [Java](./java/problem-14.java)|
 |15|[Lattice Paths](https://projecteuler.net/problem=15)|[Python](./python/problem-16.py), [Java](./java/problem-15.java)|
 |16|[Power Digit Sum](https://projecteuler.net/problem=16)|[Python](./python/problem-16.py), [Java](./java/problem-16.java)|
-|18|[Maximum Path Sum I](https://projecteuler.net/problem=18)|[Java](./java/problem-18.java)|
-|19|[Counting Sundays](https://projecteuler.net/problem=19)|[Java](./java/problem-19.java)|
-|20|[Factorial Digit Sum](https://projecteuler.net/problem=20)|[Java](./java/problem-20.java)|
-|21|[Amicable Numbers](https://projecteuler.net/problem=21)|[Java](./java/problem-21.java)|
-|22|[Names Scores](https://projecteuler.net/problem=22)|[Java](./java/problem-22.java)|
+|17|[Number Letter Counts](https://projecteuler.net/problem=17)|[Python](./python/problem-17.py)|
+|18|[Maximum Path Sum I](https://projecteuler.net/problem=18)|[Python](./python/problem-18.py), [Java](./java/problem-18.java)|
+|19|[Counting Sundays](https://projecteuler.net/problem=19)|[Python](./python/problem-19.py), [Java](./java/problem-19.java)|
+|20|[Factorial Digit Sum](https://projecteuler.net/problem=20)|[Python](./python/problem-20.py), [Java](./java/problem-20.java)|
+|21|[Amicable Numbers](https://projecteuler.net/problem=21)|[Python](./python/problem-21.py), [Java](./java/problem-21.java)|
+|22|[Names Scores](https://projecteuler.net/problem=22)|[Python](./python/problem-22.py), [Java](./java/problem-22.java)|
+|23|[Non-Abundant Sums](https://projecteuler.net/problem=23)|[Python](./python/problem-23.py)|
 |25|[1000-Digit Fibonacci Number](https://projecteuler.net/problem=25)|[Java](./java/problem-25.java)|
 |27|[Quadratic Primes](https://projecteuler.net/problem=27)|[Java](./java/problem-27.java)|
 |28|[Number Spiral Diagonals](https://projecteuler.net/problem=28)|[Java](./java/problem-28.java)|
@@ -35,6 +37,6 @@ My solutions for Project Euler problems
 |40|[Champernowne's Constant](https://projecteuler.net/problem=40)|[Java](./java/problem-40.java)|
 |42|[Coded Triangle Numbers](https://projecteuler.net/problem=42)|[Java](./java/problem-42.java)|
 |48|[Self Powers](https://projecteuler.net/problem=48)|[Java](./java/problem-48.java)|
-|67|[Maximum Path Sum II](https://projecteuler.net/problem=67)|[Java](./java/problem-67.java)|
+|67|[Maximum Path Sum II](https://projecteuler.net/problem=67)|[Python](./python/problem-67.py), [Java](./java/problem-67.java)|
 |69|[Totient Maximum](https://projecteuler.net/problem=69)|[Java](./java/problem-69.java)|
 |97|[Large Non-Mersenne Prime](https://projecteuler.net/problem=97)|[Java](.java/problem-97.java)|
