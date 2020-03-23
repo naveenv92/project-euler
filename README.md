@@ -27,7 +27,7 @@ My solutions for Project Euler problems
 |21|[Amicable Numbers](https://projecteuler.net/problem=21)|[Python](./python/problem-21.py), [Java](./java/problem-21.java)|
 |22|[Names Scores](https://projecteuler.net/problem=22)|[Python](./python/problem-22.py), [Java](./java/problem-22.java)|
 |23|[Non-Abundant Sums](https://projecteuler.net/problem=23)|[Python](./python/problem-23.py)|
-|25|[1000-Digit Fibonacci Number](https://projecteuler.net/problem=25)|[Java](./java/problem-25.java)|
+|25|[1000-Digit Fibonacci Number](https://projecteuler.net/problem=25)|[Python](./python/problem-25.py), [Java](./java/problem-25.java)|
 |27|[Quadratic Primes](https://projecteuler.net/problem=27)|[Java](./java/problem-27.java)|
 |28|[Number Spiral Diagonals](https://projecteuler.net/problem=28)|[Java](./java/problem-28.java)|
 |29|[Distinct Powers](https://projecteuler.net/problem=29)|[Java](./java/problem-29.java)|
