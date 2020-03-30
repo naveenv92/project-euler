@@ -31,13 +31,14 @@ My solutions for Project Euler problems
 |25|[1000-Digit Fibonacci Number](https://projecteuler.net/problem=25)|[Python](./python/problem-25.py), [Java](./java/problem-25.java)|
 |27|[Quadratic Primes](https://projecteuler.net/problem=27)|[Java](./java/problem-27.java)|
 |28|[Number Spiral Diagonals](https://projecteuler.net/problem=28)|[Python](./python/problem-28.py), [Java](./java/problem-28.java)|
-|29|[Distinct Powers](https://projecteuler.net/problem=29)|[Java](./java/problem-29.java)|
-|31|[Coin Sums](https://projecteuler.net/problem=31)|[Java](./java/problem-31.java)|
+|29|[Distinct Powers](https://projecteuler.net/problem=29)|[Python](./python/problem-29.py)[Java](./java/problem-29.java)|
+|30|[Digit Fifth Powers](https://projecteuler.net/problem=30)|[Python](./python/problem-30.py)|
+|31|[Coin Sums](https://projecteuler.net/problem=31)|[Python](./python/problem-31.py)[Java](./java/problem-31.java)|
 |34|[Digit Factorials](https://projecteuler.net/problem=34)|[Python](./python/problem-34.py), [Java](./java/problem-34.java)|
 |39|[Integer Right Triangles](https://projecteuler.net/problem=39)|[Java](./java/problem-39.java)|
 |40|[Champernowne's Constant](https://projecteuler.net/problem=40)|[Python](./python/problem-40.py), [Java](./java/problem-40.java)|
 |42|[Coded Triangle Numbers](https://projecteuler.net/problem=42)|[Java](./java/problem-42.java)|
-|48|[Self Powers](https://projecteuler.net/problem=48)|[Java](./java/problem-48.java)|
+|48|[Self Powers](https://projecteuler.net/problem=48)|[Python](./python/problem-48.py)[Java](./java/problem-48.java)|
 |67|[Maximum Path Sum II](https://projecteuler.net/problem=67)|[Python](./python/problem-67.py), [Java](./java/problem-67.java)|
 |69|[Totient Maximum](https://projecteuler.net/problem=69)|[Java](./java/problem-69.java)|
 |97|[Large Non-Mersenne Prime](https://projecteuler.net/problem=97)|[Java](.java/problem-97.java)|
