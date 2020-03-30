@@ -29,7 +29,7 @@ My solutions for Project Euler problems
 |23|[Non-Abundant Sums](https://projecteuler.net/problem=23)|[Python](./python/problem-23.py)|
 |24|[Lexicographic Permutations](https://projecteuler.net/problem=24)|[Python](./python/problem-24.py)|
 |25|[1000-Digit Fibonacci Number](https://projecteuler.net/problem=25)|[Python](./python/problem-25.py), [Java](./java/problem-25.java)|
-|27|[Quadratic Primes](https://projecteuler.net/problem=27)|[Java](./java/problem-27.java)|
+|27|[Quadratic Primes](https://projecteuler.net/problem=27)|[Python](./python/problem-27.py), [Java](./java/problem-27.java)|
 |28|[Number Spiral Diagonals](https://projecteuler.net/problem=28)|[Python](./python/problem-28.py), [Java](./java/problem-28.java)|
 |29|[Distinct Powers](https://projecteuler.net/problem=29)|[Python](./python/problem-29.py), [Java](./java/problem-29.java)|
 |30|[Digit Fifth Powers](https://projecteuler.net/problem=30)|[Python](./python/problem-30.py)|

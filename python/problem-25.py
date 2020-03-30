@@ -1,4 +1,4 @@
-### Problem 25
+### Problem 25 - 1000 Digit Fibonacci Number
 ###---------------------------------------------------------------------------------------
 ### Fn = Fn−1 + Fn−2, where F1 = 1 and F2 = 1.
 ### Hence the first 12 terms will be:

@@ -1,4 +1,4 @@
-### Problem 40
+### Problem 40 - Champernowne's Constant
 ###----------------------------------------------------------------------------------------------------
 ### An irrational decimal fraction is created by concatenating the positive integers:
 ### 0.123456789101112131415161718192021...
