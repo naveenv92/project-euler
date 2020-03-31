@@ -36,7 +36,9 @@ My solutions for Project Euler problems
 |30|[Digit Fifth Powers](https://projecteuler.net/problem=30)|[Python](./python/problem-30.py)|
 |31|[Coin Sums](https://projecteuler.net/problem=31)|[Python](./python/problem-31.py), [Java](./java/problem-31.java)|
 |32|[Pandigital Products](https://projecteuler.net/problem=32)|[Python](./python/problem-32.py)|
+|33|[Digit Cancelling Fractions](https://projecteuler.net/problem=33)|[Python](./python/problem-33.py)|
 |34|[Digit Factorials](https://projecteuler.net/problem=34)|[Python](./python/problem-34.py), [Java](./java/problem-34.java)|
+|35|[Circular Primes](https://projecteuler.net/problem=35)|[Python](./python/problem-35.py)|
 |36|[Double-Base Palindromes](https://projecteuler.net/problem=36)|[Python](./python/problem-36.py)|
 |39|[Integer Right Triangles](https://projecteuler.net/problem=39)|[Java](./java/problem-39.java)|
 |40|[Champernowne's Constant](https://projecteuler.net/problem=40)|[Python](./python/problem-40.py), [Java](./java/problem-40.java)|
