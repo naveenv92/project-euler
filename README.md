@@ -29,12 +29,15 @@ My solutions for Project Euler problems
 |23|[Non-Abundant Sums](https://projecteuler.net/problem=23)|[Python](./python/problem-23.py)|
 |24|[Lexicographic Permutations](https://projecteuler.net/problem=24)|[Python](./python/problem-24.py)|
 |25|[1000-Digit Fibonacci Number](https://projecteuler.net/problem=25)|[Python](./python/problem-25.py), [Java](./java/problem-25.java)|
+|26|[Reciprocal Cycles](https://projecteuler.net/problem=26)|[Python](./python/problem-26.py)|
 |27|[Quadratic Primes](https://projecteuler.net/problem=27)|[Python](./python/problem-27.py), [Java](./java/problem-27.java)|
 |28|[Number Spiral Diagonals](https://projecteuler.net/problem=28)|[Python](./python/problem-28.py), [Java](./java/problem-28.java)|
 |29|[Distinct Powers](https://projecteuler.net/problem=29)|[Python](./python/problem-29.py), [Java](./java/problem-29.java)|
 |30|[Digit Fifth Powers](https://projecteuler.net/problem=30)|[Python](./python/problem-30.py)|
 |31|[Coin Sums](https://projecteuler.net/problem=31)|[Python](./python/problem-31.py), [Java](./java/problem-31.java)|
+|32|[Pandigital Products](https://projecteuler.net/problem=32)|[Python](./python/problem-32.py)|
 |34|[Digit Factorials](https://projecteuler.net/problem=34)|[Python](./python/problem-34.py), [Java](./java/problem-34.java)|
+|36|[Double-Base Palindromes](https://projecteuler.net/problem=36)|[Python](./python/problem-36.py)|
 |39|[Integer Right Triangles](https://projecteuler.net/problem=39)|[Java](./java/problem-39.java)|
 |40|[Champernowne's Constant](https://projecteuler.net/problem=40)|[Python](./python/problem-40.py), [Java](./java/problem-40.java)|
 |42|[Coded Triangle Numbers](https://projecteuler.net/problem=42)|[Java](./java/problem-42.java)|
