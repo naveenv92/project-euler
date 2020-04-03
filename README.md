@@ -40,9 +40,11 @@ My solutions for Project Euler problems
 |34|[Digit Factorials](https://projecteuler.net/problem=34)|[Python](./python/problem-34.py), [Java](./java/problem-34.java)|
 |35|[Circular Primes](https://projecteuler.net/problem=35)|[Python](./python/problem-35.py)|
 |36|[Double-Base Palindromes](https://projecteuler.net/problem=36)|[Python](./python/problem-36.py)|
-|39|[Integer Right Triangles](https://projecteuler.net/problem=39)|[Java](./java/problem-39.java)|
+|37|[Trunctable Primes](https://projecteuler.net/problem=37)|[Python](./python/problem-37.py)|
+|39|[Integer Right Triangles](https://projecteuler.net/problem=39)|[Python](./python/problem-39.py), [Java](./java/problem-39.java)|
 |40|[Champernowne's Constant](https://projecteuler.net/problem=40)|[Python](./python/problem-40.py), [Java](./java/problem-40.java)|
 |42|[Coded Triangle Numbers](https://projecteuler.net/problem=42)|[Java](./java/problem-42.java)|
+|44|[Pentagonal Numbers](https://projecteuler.net/problem=44)|[Python](.python/problem-44.py)|
 |48|[Self Powers](https://projecteuler.net/problem=48)|[Python](./python/problem-48.py), [Java](./java/problem-48.java)|
 |67|[Maximum Path Sum II](https://projecteuler.net/problem=67)|[Python](./python/problem-67.py), [Java](./java/problem-67.java)|
 |69|[Totient Maximum](https://projecteuler.net/problem=69)|[Java](./java/problem-69.java)|
