@@ -48,6 +48,7 @@ My solutions for Project Euler problems
 |45|[Triangular, Pentagonal, and Hexagonal](https://projecteuler.net/problem=45)|[Python](./python/problem-45.py)|
 |46|[Goldbach's Other Conjecture](https://projecteuler.net/problem=46)|[Python](./python/problem-46.py)|
 |48|[Self Powers](https://projecteuler.net/problem=48)|[Python](./python/problem-48.py), [Java](./java/problem-48.java)|
+|50|[Consecutive Prime Sum](https://projecteuler.net/problem=50)|[Python](./python/problem-50.py)|
 |67|[Maximum Path Sum II](https://projecteuler.net/problem=67)|[Python](./python/problem-67.py), [Java](./java/problem-67.java)|
 |69|[Totient Maximum](https://projecteuler.net/problem=69)|[Java](./java/problem-69.java)|
 |97|[Large Non-Mersenne Prime](https://projecteuler.net/problem=97)|[Java](.java/problem-97.java)|
