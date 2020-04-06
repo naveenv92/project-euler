@@ -2,7 +2,7 @@
 My solutions for Project Euler problems
 &nbsp;  
 
-<b>Progress</b> ![Progress](https://projecteuler.net/profile/naveenv92.png)  
+![Progress](https://projecteuler.net/profile/naveenv92.png)  
 
 &nbsp;  
 
