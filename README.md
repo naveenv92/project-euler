@@ -60,4 +60,4 @@ My solutions for Project Euler problems
 |50|[Consecutive Prime Sum](https://projecteuler.net/problem=50)|[Python](./python/problem-50.py)|
 |67|[Maximum Path Sum II](https://projecteuler.net/problem=67)|[Python](./python/problem-67.py), [Java](./java/problem-67.java)|
 |69|[Totient Maximum](https://projecteuler.net/problem=69)|[Java](./java/problem-69.java)|
-|97|[Large Non-Mersenne Prime](https://projecteuler.net/problem=97)|[Java](.java/problem-97.java)|
+|97|[Large Non-Mersenne Prime](https://projecteuler.net/problem=97)|[Python](./python/problem-97.py), [Java](.java/problem-97.java)|
