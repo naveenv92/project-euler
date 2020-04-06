@@ -45,6 +45,7 @@ My solutions for Project Euler problems
 |40|[Champernowne's Constant](https://projecteuler.net/problem=40)|[Python](./python/problem-40.py), [Java](./java/problem-40.java)|
 |41|[Pandigital Prime](https://projecteuler.net/problem=41)|[Python](./python/problem-41.py)|
 |42|[Coded Triangle Numbers](https://projecteuler.net/problem=42)|[Python](./python/problem-42.py), [Java](./java/problem-42.java)|
+|43|[Sub-String Divisibility](https://projecteuler.net/problem=43)|[Python](./python/problem-43.py)|
 |44|[Pentagon Numbers](https://projecteuler.net/problem=44)|[Python](./python/problem-44.py)|
 |45|[Triangular, Pentagonal, and Hexagonal](https://projecteuler.net/problem=45)|[Python](./python/problem-45.py)|
 |46|[Goldbach's Other Conjecture](https://projecteuler.net/problem=46)|[Python](./python/problem-46.py)|
