@@ -2,7 +2,7 @@
 My solutions for Project Euler problems
 &nbsp;  
 
-![Progress](https://projecteuler.net/profile/naveenv92.png?maxAge=2592000)  
+![Progress](https://projecteuler.net/profile/naveenv92.png?maxAge=3600)  
 
 &nbsp;  
 
