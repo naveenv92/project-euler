@@ -43,6 +43,7 @@ My solutions for Project Euler problems
 |37|[Trunctable Primes](https://projecteuler.net/problem=37)|[Python](./python/problem-37.py)|
 |39|[Integer Right Triangles](https://projecteuler.net/problem=39)|[Python](./python/problem-39.py), [Java](./java/problem-39.java)|
 |40|[Champernowne's Constant](https://projecteuler.net/problem=40)|[Python](./python/problem-40.py), [Java](./java/problem-40.java)|
+|41|[Pandigital Prime](https://projecteuler.net/problem=41)|[Python](./python/problem-41.py)|
 |42|[Coded Triangle Numbers](https://projecteuler.net/problem=42)|[Python](./python/problem-42.py), [Java](./java/problem-42.java)|
 |44|[Pentagon Numbers](https://projecteuler.net/problem=44)|[Python](./python/problem-44.py)|
 |45|[Triangular, Pentagonal, and Hexagonal](https://projecteuler.net/problem=45)|[Python](./python/problem-45.py)|
