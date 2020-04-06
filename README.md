@@ -47,6 +47,7 @@ My solutions for Project Euler problems
 |44|[Pentagon Numbers](https://projecteuler.net/problem=44)|[Python](./python/problem-44.py)|
 |45|[Triangular, Pentagonal, and Hexagonal](https://projecteuler.net/problem=45)|[Python](./python/problem-45.py)|
 |46|[Goldbach's Other Conjecture](https://projecteuler.net/problem=46)|[Python](./python/problem-46.py)|
+|47|[Distinct Primes Factors](https://projecteuler.net/problem=47)|[Python](./python/problem-47.py)|
 |48|[Self Powers](https://projecteuler.net/problem=48)|[Python](./python/problem-48.py), [Java](./java/problem-48.java)|
 |49|[Prime Permutations](https://projecteuler.net/problem=49)|[Python](./python/problem-49.py)|
 |50|[Consecutive Prime Sum](https://projecteuler.net/problem=50)|[Python](./python/problem-50.py)|
