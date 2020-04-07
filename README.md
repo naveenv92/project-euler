@@ -58,6 +58,7 @@ My solutions for Project Euler problems
 |48|[Self Powers](https://projecteuler.net/problem=48)|[Python](./python/problem-48.py), [Java](./java/problem-48.java)|
 |49|[Prime Permutations](https://projecteuler.net/problem=49)|[Python](./python/problem-49.py)|
 |50|[Consecutive Prime Sum](https://projecteuler.net/problem=50)|[Python](./python/problem-50.py)|
+|52|[Permuted Multiples](https://projecteuler.net/problem=52)|[Python](./python/problem-52.py)|
 |53|[Combinatoric Selections](https://projecteuler.net/problem=53)|[Python](./python/problem-53.py)|
 |55|[Lychrel Numbers](https://projecteuler.net/problem=55)|[Python](./python/problem-55.py)|
 |56|[Powerful Digit Sum](https://projecteuler.net/problem=56)|[Python](./python/problem-56.py)|
