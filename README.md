@@ -2,7 +2,7 @@
 My solutions for Project Euler problems
 &nbsp;  
 
-![Progress](https://projecteuler.net/profile/naveenv92.png?maxAge=0)  
+![Progress](https://projecteuler.net/profile/naveenv92.png?maxAge=1)  
 
 &nbsp;  
 
@@ -65,4 +65,5 @@ My solutions for Project Euler problems
 |63|[Powerful Digit Counts](https://projecteuler.net/problem=63)|[Python](./python/problem-63.py)|
 |67|[Maximum Path Sum II](https://projecteuler.net/problem=67)|[Python](./python/problem-67.py), [Java](./java/problem-67.java)|
 |69|[Totient Maximum](https://projecteuler.net/problem=69)|[Java](./java/problem-69.java)|
+|92|[Square Digit Chains](https://projecteuler.net/problem=92)|[Python](./python/problem-92.py)|
 |97|[Large Non-Mersenne Prime](https://projecteuler.net/problem=97)|[Python](./python/problem-97.py), [Java](.java/problem-97.java)|
