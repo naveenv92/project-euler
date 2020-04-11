@@ -60,10 +60,12 @@ My solutions for Project Euler problems
 |50|[Consecutive Prime Sum](https://projecteuler.net/problem=50)|[Python](./python/problem-50.py)|
 |52|[Permuted Multiples](https://projecteuler.net/problem=52)|[Python](./python/problem-52.py)|
 |53|[Combinatoric Selections](https://projecteuler.net/problem=53)|[Python](./python/problem-53.py)|
+|54|[Poker Hands](https://projecteuler.net/problem=54)|[Python](./python/problem-54.py)|
 |55|[Lychrel Numbers](https://projecteuler.net/problem=55)|[Python](./python/problem-55.py)|
 |56|[Powerful Digit Sum](https://projecteuler.net/problem=56)|[Python](./python/problem-56.py)|
 |63|[Powerful Digit Counts](https://projecteuler.net/problem=63)|[Python](./python/problem-63.py)|
 |67|[Maximum Path Sum II](https://projecteuler.net/problem=67)|[Python](./python/problem-67.py), [Java](./java/problem-67.java)|
 |69|[Totient Maximum](https://projecteuler.net/problem=69)|[Java](./java/problem-69.java)|
+|81|[Path Sum: Two Ways](https://projecteuler.net/problem=81)|[Python](./python/problem-81.py)|
 |92|[Square Digit Chains](https://projecteuler.net/problem=92)|[Python](./python/problem-92.py)|
 |97|[Large Non-Mersenne Prime](https://projecteuler.net/problem=97)|[Python](./python/problem-97.py), [Java](.java/problem-97.java)|
