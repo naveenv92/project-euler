@@ -1,9 +1,10 @@
-### Problem 3 - Largest Prime Factor
-###-------------------------------------------------------------
-### The prime factors of 13195 are 5, 7, 13 and 29.
-### What is the largest prime factor of the number 600851475143?
+"""
+Problem 3 - Largest Prime Factor
 
-### Solution
+The prime factors of 13195 are 5, 7, 13, and 29.
+
+What is the largest prime factor of the number 600851475143?
+"""
 
 import numpy as np
 
@@ -28,4 +29,4 @@ for i in range(2, int(np.sqrt(number))):
 		if isPrime(i):
 			largest_factor = i
 
-print(largest_factor)
+print('The largest prime factor is: ' + str(largest_factor))
