@@ -8,15 +8,15 @@ My solutions for Project Euler problems
 
 | Problem | Title | Solution|
 |---------|-------|---------|
-|1|[Multiples of 3 and 5](https://projecteuler.net/problem=1)|[Python](./python/problem-1.py), [Java](./java/problem-1.java)|
-|2|[Even Fibonacci Numbers](https://projecteuler.net/problem=2)|[Python](./python/problem-2.py), [Java](./java/problem-2.java)|
-|3|[Largest Prime Factor](https://projecteuler.net/problem=3)|[Python](./python/problem-3.py), [Java](./java/problem-3.java)|
-|4|[Largest Palindrome Product](https://projecteuler.net/problem=4)|[Python](./python/problem-4.py), [Java](./java/problem-4.java)|
-|5|[Smallest Multiple](https://projecteuler.net/problem=5)|[Python](./python/problem-5/py), [Java](./java/problem-5.java)|
-|6|[Sum Square Difference](https://projecteuler.net/problem=6)|[Python](./python/problem-6.py), [Java](./java/problem-6.java)|
-|7|[10001<sup>st</sup> Prime](https://projecteuler.net/problem=7)|[Python](./python/problem-7.py), [Java](./java/problem-7.java)|
-|8|[Largest Product in a Series](https://projecteuler.net/problem=8)|[Python](./python/problem-8.py), [Java](./java/problem-8.java)|
-|9|[Special Pythagorean Triplet](https://projecteuler.net/problem=9)|[Python](./python/problem-9.py), [Java](./java/problem-9.java)|
+|1|[Multiples of 3 and 5](https://projecteuler.net/problem=1)|[Python](./python/problem-01.py), [Java](./java/problem-1.java)|
+|2|[Even Fibonacci Numbers](https://projecteuler.net/problem=2)|[Python](./python/problem-02.py), [Java](./java/problem-2.java)|
+|3|[Largest Prime Factor](https://projecteuler.net/problem=3)|[Python](./python/problem-03.py), [Java](./java/problem-3.java)|
+|4|[Largest Palindrome Product](https://projecteuler.net/problem=4)|[Python](./python/problem-04.py), [Java](./java/problem-4.java)|
+|5|[Smallest Multiple](https://projecteuler.net/problem=5)|[Python](./python/problem-05/py), [Java](./java/problem-5.java)|
+|6|[Sum Square Difference](https://projecteuler.net/problem=6)|[Python](./python/problem-06.py), [Java](./java/problem-6.java)|
+|7|[10001<sup>st</sup> Prime](https://projecteuler.net/problem=7)|[Python](./python/problem-07.py), [Java](./java/problem-7.java)|
+|8|[Largest Product in a Series](https://projecteuler.net/problem=8)|[Python](./python/problem-08.py), [Java](./java/problem-8.java)|
+|9|[Special Pythagorean Triplet](https://projecteuler.net/problem=9)|[Python](./python/problem-09.py), [Java](./java/problem-9.java)|
 |10|[Summation of Primes](https://projecteuler.net/problem=10)|[Python](./python/problem-10.py), [Java](./java/problem-10.java)|
 |11|[Largest Product in a Grid](https://projecteuler.net/problem=11)|[Python](./python/problem-11.py), [Java](./java/problem-11.java)|
 |12|[Highly Divisible Triangular Number](https://projecteuler.net/problem=12)|[Python](./python/problem-12.py), [Java](./java/problem-12.java)|
