@@ -1,32 +1,48 @@
-### Problem 7 - 10001st Prime
-###-----------------------------------------------------------------------------------------------------
-### By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
-### What is the 10,001st prime number?
+"""
+Problem 7 - 10001st Prime
 
-### Solution
+By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see 
+that the 6th prime is 13.
 
-import numpy as np
+What is the 10,001st prime number?
+"""
 
-# Function to determine if number is prime
-def isPrime(n):
-	
-	if n == 2:
+def is_prime(n: int) -> bool:
+	"""
+	Parameters
+		n (int): number to check primality
+	Returns
+		boolean
+	"""
+
+	if n < 2:
+		return False
+	elif n == 2:
+		return True
+	else:
+		for i in range(2, round(n**0.5) + 1):
+			if n % i == 0:
+				return False
 		return True
 
-	for i in range(2, int(np.sqrt(n)) + 1):
-		if n % i == 0:
-			return False
-	return True
+def nth_prime(n: int) -> int:
+	"""
+	Parameters
+		n (int): prime number of interest
+	Returns
+		nth_prime (int): nth prime number
+	"""
 
-# Find 10,001st prime number
-number = 2
-counter = 0
+	curr_n = 2
+	count = 0
 
-while True:
-	if isPrime(number):
-		counter += 1
-	if counter == 10001:
-		break
-	number += 1
+	while True:
+		if is_prime(curr_n):
+			count += 1
+		if count == n:
+			break
+		curr_n += 1
+	return curr_n
 
-print(number)
+if __name__ == '__main__':
+	print('The 10,001st prime number is: ' + str(nth_prime(10001)))
