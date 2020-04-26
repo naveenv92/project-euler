@@ -11,16 +11,25 @@ By considering the terms in the Fibonacci sequence whose values do not exceed
 four million, find the sum of the even-valued terms.
 """
 
-current_num = 1
-prev_num = 1
-total = 0
+def fib_sum(n: int) -> int:
+	"""
+	Parameters
+		n (int): maximum Fibonacci number
+	Returns
+		total (int): sum of Fibonacci numbers below n
+	"""
 
-while current_num <= 4000000:
-	
-	current_num = current_num + prev_num
-	prev_num = current_num - prev_num
+	n_curr = 1
+	n_prev = 1
+	total = 0
 
-	if current_num % 2 == 0:
-		total += current_num
+	while n_curr <= n:
+		n_curr = n_curr + n_prev
+		n_prev = n_curr - n_prev
+		if n_curr % 2 == 0:
+			total += n_curr
+	return total
 
-print('The sum of even-valued Fibonacci numbers below 4,000,000 is: ' + str(total))
+if __name__ == '__main__':
+	print('The sum of even-valued Fibonacci numbers below 4,000,000 is: ' +
+		  str(fib_sum(4000000)))

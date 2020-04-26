@@ -8,21 +8,37 @@ What is the smallest positive number that is evenly divisible by all of
 the numbers from 1 to 20?
 """
 
-# Check if evenly divisible
-def isDivisible(n):
+from typing import Callable
+
+def is_divisible(n: int) -> bool:
+	"""
+	Parameters
+		n (int): number to check if divisble by [1, 20]
+	Returns
+		boolean
+	"""
+
 	for i in range(1, 21):
 		if n % i != 0:
 			return False
-
 	return True
 
-# Calculate smallest divisible integer
-number = 20
+def smallest_number(func: Callable[[int], bool]) -> int:
+	"""
+	Parameters
+		func (Callable): callback function
+	Returns
+		n (int): smallest integer that satisfies func
+	"""
 
-while True:
-	if isDivisible(number):
-		break
-	else:
-		number += 20
+	n = 20
+	while True:
+		if func(n):
+			break
+		else:
+			n += 20
+	return n
 
-print('The smallest number divisible by 1-20 is: ' + str(number))
+if __name__ == '__main__':
+	print('The smallest positive number divisible by 1-20 is: '
+		  + str(smallest_number(is_divisible)))
