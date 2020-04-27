@@ -1,27 +1,44 @@
-### Problem 10 - Summation of Primes
-###------------------------------------------------------
-### The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
-### Find the sum of all the primes below two million.
+"""
+Problem 10 - Summation of Primes
 
-### Solution
+The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17
 
-import numpy as np
+Find the sum of all the primes below two million
+"""
 
-# Function to determine prime
-def isPrime(n):
-	if n == 1:
+def is_prime(n: int) -> bool:
+	"""
+	Parameters
+		n (int): number to check primality
+	Returns
+		boolean
+	"""
+
+	if n < 2:
 		return False
-	if n == 2:
+	elif n == 2:
 		return True
-	for i in range(2, int(np.sqrt(n)) + 1):
-		if n % i == 0:
-			return False
-	return True
+	else:
+		for i in range(2, round(n**0.5) + 1):
+			if n % i == 0:
+				return False
+		return True
 
-sumOfPrimes = 0
+def sum_of_primes(n: int) -> int:
+	"""
+	Parameters
+		n (int): upper value of primes to sum
+	Returns
+		sum_of_primes (int): sum of primes from [2, n)
+	"""
 
-for i in range(2000000):
-	if isPrime(i):
-		sumOfPrimes += i
+	sum_of_primes = 0
 
-print(sumOfPrimes)
+	for i in range(n):
+		if is_prime(i):
+			sum_of_primes += i
+	return sum_of_primes
+
+if __name__ == "__main__":
+	print('The sum of all primes below 2,000,000 is: ' +
+		  str(sum_of_primes(2000000)))
