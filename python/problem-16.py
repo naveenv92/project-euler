@@ -7,14 +7,14 @@ What is the sum of the digits of the number 2^(1000)?
 """
 
 def digit_sum(base: int, exponent: int) -> int:
-	"""
-	Parameters
-		base (int): base value
-		exponent (int): exponent to raise base value to
-	"""
-	num = base**exponent
-	return sum([int(i) for i in str(num)])
+    """
+    Parameters
+        base (int): base value
+        exponent (int): exponent to raise base value to
+    """
+    num = base**exponent
+    return sum([int(i) for i in str(num)])
 
 if __name__ == "__main__":
-	print('The digit sum of 2^1000 is: ' + 
-		   str(digit_sum(2, 1000)))
+    print('The digit sum of 2^1000 is: ' + 
+           str(digit_sum(2, 1000)))
