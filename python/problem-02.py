@@ -12,24 +12,24 @@ four million, find the sum of the even-valued terms.
 """
 
 def fib_sum(n: int) -> int:
-	"""
-	Parameters
-		n (int): maximum Fibonacci number
-	Returns
-		total (int): sum of Fibonacci numbers below n
-	"""
+    """
+    Parameters
+        n (int): maximum Fibonacci number
+    Returns
+        total (int): sum of Fibonacci numbers below n
+    """
 
-	n_curr = 1
-	n_prev = 1
-	total = 0
+    n_curr = 1
+    n_prev = 1
+    total = 0
 
-	while n_curr <= n:
-		n_curr = n_curr + n_prev
-		n_prev = n_curr - n_prev
-		if n_curr % 2 == 0:
-			total += n_curr
-	return total
+    while n_curr <= n:
+        n_curr = n_curr + n_prev
+        n_prev = n_curr - n_prev
+        if n_curr % 2 == 0:
+            total += n_curr
+    return total
 
 if __name__ == '__main__':
-	print('The sum of even-valued Fibonacci numbers below 4,000,000 is: ' +
-		  str(fib_sum(4000000)))
+    print('The sum of even-valued Fibonacci numbers below 4,000,000 is: ' +
+          str(fib_sum(4000000)))

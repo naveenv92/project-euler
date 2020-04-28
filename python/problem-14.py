@@ -19,44 +19,44 @@ Which starting number, under one million, produces the longest chain?
 from typing import Tuple
 
 def collatz(n: int) -> int:
-	"""
-	Parameters
-		n (int): starting number of sequence
-	Returns
-		length (int): length of sequence
-	"""
+    """
+    Parameters
+        n (int): starting number of sequence
+    Returns
+        length (int): length of sequence
+    """
 
-	curr_n = n
-	length = 0
+    curr_n = n
+    length = 0
 
-	while curr_n != 1:
-		if curr_n % 2 == 0:
-			curr_n /= 2
-		else:
-			curr_n = 3*curr_n + 1
-		length += 1
-	length += 1 # Add 1 since look breaks at 1
-	return length
+    while curr_n != 1:
+        if curr_n % 2 == 0:
+            curr_n /= 2
+        else:
+            curr_n = 3*curr_n + 1
+        length += 1
+    length += 1 # Add 1 since look breaks at 1
+    return length
 
 def longest_chain(n: int) -> Tuple[int, int]:
-	"""
-	Parameters:
-		n (int): top bound on values to search sequence
-	Returns:
-		longest_chain: length of longest chain below n
-	"""
+    """
+    Parameters:
+        n (int): top bound on values to search sequence
+    Returns:
+        longest_chain: length of longest chain below n
+    """
 
-	longest = 0
-	starting_n = 0
+    longest = 0
+    starting_n = 0
 
-	for i in range(1, n):
-		curr_length = collatz(i)
-		if curr_length > longest:
-			longest = curr_length
-			starting_n = i
-	return longest, starting_n
+    for i in range(1, n):
+        curr_length = collatz(i)
+        if curr_length > longest:
+            longest = curr_length
+            starting_n = i
+    return longest, starting_n
 
 if __name__ == '__main__':
-	longest, starting_n = longest_chain(1000000)
-	print('Longest chain: ' + str(longest) + ' for starting number of ' +
-		  str(starting_n))
+    longest, starting_n = longest_chain(1000000)
+    print('Longest chain: ' + str(longest) + ' for starting number of ' +
+          str(starting_n))

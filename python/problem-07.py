@@ -8,41 +8,41 @@ What is the 10,001st prime number?
 """
 
 def is_prime(n: int) -> bool:
-	"""
-	Parameters
-		n (int): number to check primality
-	Returns
-		boolean
-	"""
+    """
+    Parameters
+        n (int): number to check primality
+    Returns
+        boolean
+    """
 
-	if n < 2:
-		return False
-	elif n == 2:
-		return True
-	else:
-		for i in range(2, round(n**0.5) + 1):
-			if n % i == 0:
-				return False
-		return True
+    if n < 2:
+        return False
+    elif n == 2:
+        return True
+    else:
+        for i in range(2, round(n**0.5) + 1):
+            if n % i == 0:
+                return False
+        return True
 
 def nth_prime(n: int) -> int:
-	"""
-	Parameters
-		n (int): prime number of interest
-	Returns
-		nth_prime (int): nth prime number
-	"""
+    """
+    Parameters
+        n (int): prime number of interest
+    Returns
+        nth_prime (int): nth prime number
+    """
 
-	curr_n = 2
-	count = 0
+    curr_n = 2
+    count = 0
 
-	while True:
-		if is_prime(curr_n):
-			count += 1
-		if count == n:
-			break
-		curr_n += 1
-	return curr_n
+    while True:
+        if is_prime(curr_n):
+            count += 1
+        if count == n:
+            break
+        curr_n += 1
+    return curr_n
 
 if __name__ == '__main__':
-	print('The 10,001st prime number is: ' + str(nth_prime(10001)))
+    print('The 10,001st prime number is: ' + str(nth_prime(10001)))
