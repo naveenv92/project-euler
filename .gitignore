@@ -1,4 +1,6 @@
 # Ignore .txt files for certain problems
+p022_names.txt
+p054_poker.txt
 p081_matrix.txt
 p082_matrix.txt
-p054_poker.txt
+
