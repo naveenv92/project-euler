@@ -63,6 +63,7 @@ My solutions for Project Euler problems
 |54|[Poker Hands](https://projecteuler.net/problem=54)|[Python](./python/problem-054.py)|
 |55|[Lychrel Numbers](https://projecteuler.net/problem=55)|[Python](./python/problem-055.py)|
 |56|[Powerful Digit Sum](https://projecteuler.net/problem=56)|[Python](./python/problem-056.py)|
+|57|[Square Root Convergents](https://projecteuler.net/problem=57)|[Python](./python/problem-057.py)|
 |63|[Powerful Digit Counts](https://projecteuler.net/problem=63)|[Python](./python/problem-063.py)|
 |67|[Maximum Path Sum II](https://projecteuler.net/problem=67)|[Python](./python/problem-67.py), [Java](./java/problem-067.java)|
 |69|[Totient Maximum](https://projecteuler.net/problem=69)|[Java](./java/problem-069.java)|
