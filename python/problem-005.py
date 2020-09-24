@@ -10,6 +10,7 @@ the numbers from 1 to 20?
 
 from typing import Callable
 
+
 def is_divisible(n: int) -> bool:
     """
     Parameters
@@ -22,6 +23,7 @@ def is_divisible(n: int) -> bool:
         if n % i != 0:
             return False
     return True
+
 
 def smallest_number(func: Callable[[int], bool]) -> int:
     """
@@ -39,6 +41,9 @@ def smallest_number(func: Callable[[int], bool]) -> int:
             n += 20
     return n
 
-if __name__ == '__main__':
-    print('The smallest positive number divisible by 1-20 is: '
-          + str(smallest_number(is_divisible)))
+
+if __name__ == "__main__":
+    print(
+        "The smallest positive number divisible by 1-20 is: "
+        + str(smallest_number(is_divisible))
+    )

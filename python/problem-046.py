@@ -16,37 +16,40 @@ import math
 
 # Function to determine if prime. n:int -> boolean
 def isPrime(n):
-	if n < 2:
-		return False
-	elif n == 2:
-		return True
-	else:
-		i = 2
-		while i**2 <= n:
-			if n % i == 0:
-				return False
-			i += 1
-		return True
+    if n < 2:
+        return False
+    elif n == 2:
+        return True
+    else:
+        i = 2
+        while i ** 2 <= n:
+            if n % i == 0:
+                return False
+            i += 1
+        return True
+
 
 number = 1
 primes = []
 
 while True:
-	number += 1
-	flag = False
-	if isPrime(number):
-		primes.append(number)
-		continue
-	elif number % 2 == 0:
-		continue
-	else:
-		for i in primes:
-			sq = ((number - i)/2)**0.5
-			if (sq - math.floor(sq)) == 0:
-				flag = True
-				break
-		if flag == False:
-			break
+    number += 1
+    flag = False
+    if isPrime(number):
+        primes.append(number)
+        continue
+    elif number % 2 == 0:
+        continue
+    else:
+        for i in primes:
+            sq = ((number - i) / 2) ** 0.5
+            if (sq - math.floor(sq)) == 0:
+                flag = True
+                break
+        if flag == False:
+            break
 
-print('The smallest odd number that cannot be written as the sum of a prime and twice a square is: ' + str(number))
-
+print(
+    "The smallest odd number that cannot be written as the sum of a prime and twice a square is: "
+    + str(number)
+)

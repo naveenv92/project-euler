@@ -14,9 +14,9 @@
 terms = []
 
 for a in range(2, 101):
-	for b in range(2, 101):
-		value = a**b
-		if value not in terms:
-			terms.append(value)
+    for b in range(2, 101):
+        value = a ** b
+        if value not in terms:
+            terms.append(value)
 
-print('The number of distinct terms is: ' + str(len(terms)))
+print("The number of distinct terms is: " + str(len(terms)))

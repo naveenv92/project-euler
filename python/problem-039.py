@@ -12,16 +12,16 @@ import math
 py_triples = {}
 
 for i in range(1, 1001):
-	for j in range(i, 1001):
-		k = np.sqrt(i**2 + j**2)
-		if (k - math.floor(k)) == 0:
-			p = i + j + k
-			if p > 1000:
-				continue
-			if str(p) in py_triples:
-				py_triples[str(p)] += 1
-			else:
-				py_triples[str(p)] = 1
+    for j in range(i, 1001):
+        k = np.sqrt(i ** 2 + j ** 2)
+        if (k - math.floor(k)) == 0:
+            p = i + j + k
+            if p > 1000:
+                continue
+            if str(p) in py_triples:
+                py_triples[str(p)] += 1
+            else:
+                py_triples[str(p)] = 1
 
 max_solns = max(py_triples, key=py_triples.get)
-print('The maximum number of solutions occur when p = ' + str(max_solns))
+print("The maximum number of solutions occur when p = " + str(max_solns))

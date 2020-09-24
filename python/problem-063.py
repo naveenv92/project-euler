@@ -9,16 +9,19 @@ numbers = []
 number = 1
 
 while True:
-	if number > 11:
-		break
-	exp = 1
-	while True:
-		power = pow(number, exp)
-		if len(str(power)) == exp:
-			numbers.append(power)
-		else:
-			break
-		exp += 1
-	number += 1
+    if number > 11:
+        break
+    exp = 1
+    while True:
+        power = pow(number, exp)
+        if len(str(power)) == exp:
+            numbers.append(power)
+        else:
+            break
+        exp += 1
+    number += 1
 
-print('The number of n-digit positive numbers that are an nth power is: ' + str(len(numbers)))
+print(
+    "The number of n-digit positive numbers that are an nth power is: "
+    + str(len(numbers))
+)

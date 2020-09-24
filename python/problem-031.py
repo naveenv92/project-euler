@@ -11,18 +11,18 @@
 import numpy as np
 
 # Dictionary of values of coins
-values = {0:1, 1:2, 2:5, 3:10, 4:20, 5:50, 6:100, 7:200}
+values = {0: 1, 1: 2, 2: 5, 3: 10, 4: 20, 5: 50, 6: 100, 7: 200}
 coinSums = np.zeros((201, 8))
 
 for i in range(1, 201):
-	for j in range(8):
-		if j == 0:
-			coinSums[i][j] = 1
-		else:
-			coinSums[i][j] = coinSums[i][j-1]
-			if i - values[j] >= 0:
-				coinSums[i][j] += coinSums[i - values[j]][j]
-			if i == values[j]:
-				coinSums[i][j] += 1
+    for j in range(8):
+        if j == 0:
+            coinSums[i][j] = 1
+        else:
+            coinSums[i][j] = coinSums[i][j - 1]
+            if i - values[j] >= 0:
+                coinSums[i][j] += coinSums[i - values[j]][j]
+            if i == values[j]:
+                coinSums[i][j] += 1
 
-print('Total ways to make £2: ' + str(int(coinSums[200][7])))
+print("Total ways to make £2: " + str(int(coinSums[200][7])))

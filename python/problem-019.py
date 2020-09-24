@@ -14,6 +14,7 @@ research for yourself.
 How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
 """
 
+
 def num_sundays(end_year: int) -> int:
     """
     Parameters
@@ -22,19 +23,50 @@ def num_sundays(end_year: int) -> int:
         num_sundays (int): number of Sundays in [1900, end_year)
     """
 
-    months = {1:'January', 2:'February', 3:'March', 4:'April', 5:'May', 
-              6:'June', 7:'July', 8:'August', 9:'September', 10:'October', 
-              11:'November', 12:'December'}
+    months = {
+        1: "January",
+        2: "February",
+        3: "March",
+        4: "April",
+        5: "May",
+        6: "June",
+        7: "July",
+        8: "August",
+        9: "September",
+        10: "October",
+        11: "November",
+        12: "December",
+    }
 
-    days_in_month = {'January': 31, 'February': 28, 'March': 31, 'April': 30,
-                     'May': 31, 'June': 30, 'July': 31, 'August': 31, 
-                     'September': 30, 'October': 31, 'November': 30, 
-                     'December': 31}
+    days_in_month = {
+        "January": 31,
+        "February": 28,
+        "March": 31,
+        "April": 30,
+        "May": 31,
+        "June": 30,
+        "July": 31,
+        "August": 31,
+        "September": 30,
+        "October": 31,
+        "November": 30,
+        "December": 31,
+    }
 
-    days_in_month_ly = {'January': 31, 'February': 29, 'March': 31, 
-                        'April': 30, 'May': 31, 'June': 30, 'July': 31, 
-                        'August': 31, 'September': 30, 'October': 31, 
-                        'November': 30, 'December': 31}
+    days_in_month_ly = {
+        "January": 31,
+        "February": 29,
+        "March": 31,
+        "April": 30,
+        "May": 31,
+        "June": 30,
+        "July": 31,
+        "August": 31,
+        "September": 30,
+        "October": 31,
+        "November": 30,
+        "December": 31,
+    }
 
     # Starting date
     day, month, year = 1, 1, 1900
@@ -56,6 +88,10 @@ def num_sundays(end_year: int) -> int:
             year += 1
     return num_sundays
 
-if __name__ == '__main__':
-    print('The number of Sundays on the 1st of the month in the' +
-          ' 20th century: ' + str(num_sundays(2001)))
+
+if __name__ == "__main__":
+    print(
+        "The number of Sundays on the 1st of the month in the"
+        + " 20th century: "
+        + str(num_sundays(2001))
+    )

@@ -18,6 +18,7 @@ Which starting number, under one million, produces the longest chain?
 
 from typing import Tuple
 
+
 def collatz(n: int) -> int:
     """
     Parameters
@@ -33,10 +34,11 @@ def collatz(n: int) -> int:
         if curr_n % 2 == 0:
             curr_n /= 2
         else:
-            curr_n = 3*curr_n + 1
+            curr_n = 3 * curr_n + 1
         length += 1
-    length += 1 # Add 1 since look breaks at 1
+    length += 1  # Add 1 since look breaks at 1
     return length
+
 
 def longest_chain(n: int) -> Tuple[int, int]:
     """
@@ -56,7 +58,12 @@ def longest_chain(n: int) -> Tuple[int, int]:
             starting_n = i
     return longest, starting_n
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     longest, starting_n = longest_chain(1000000)
-    print('Longest chain: ' + str(longest) + ' for starting number of ' +
-          str(starting_n))
+    print(
+        "Longest chain: "
+        + str(longest)
+        + " for starting number of "
+        + str(starting_n)
+    )

@@ -14,6 +14,7 @@ and 142; so d(284) = 220.
 Evaluate the sum of all the amicable numbers under 10000.
 """
 
+
 def sum_of_divisors(n: int) -> int:
     """
     Parameters
@@ -24,12 +25,13 @@ def sum_of_divisors(n: int) -> int:
 
     divisors = [1]
 
-    for i in range(2, round(n**0.5) + 1):
+    for i in range(2, round(n ** 0.5) + 1):
         if n % i == 0:
             divisors.append(i)
-            if not i**2 == n:
-                divisors.append(n/i)
+            if not i ** 2 == n:
+                divisors.append(n / i)
     return sum(divisors)
+
 
 def amicable_sum(n: int) -> int:
     """
@@ -47,5 +49,6 @@ def amicable_sum(n: int) -> int:
             amicable_sum += i
     return amicable_sum
 
-if __name__ == '__main__':
-    print('Sum of amicable numbers under 10000: %i' % amicable_sum(10000))
+
+if __name__ == "__main__":
+    print("Sum of amicable numbers under 10000: %i" % amicable_sum(10000))

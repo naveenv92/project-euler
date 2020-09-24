@@ -20,6 +20,7 @@ What is the value of the first triangle number to have over five hundred
 divisors?
 """
 
+
 def triangle_number(n: int) -> int:
     """
     Parameters
@@ -28,8 +29,9 @@ def triangle_number(n: int) -> int:
         triangle_number (int): nth triangle number
     """
 
-    triangle_number = sum([i for i in range(1, n+1)])
+    triangle_number = sum([i for i in range(1, n + 1)])
     return triangle_number
+
 
 def num_of_divisors(n: int) -> int:
     """
@@ -42,15 +44,16 @@ def num_of_divisors(n: int) -> int:
     divisors = 0
     perfect_square = False
 
-    for i in range(1, round(n**0.5) + 1):
-        if i**2 == n:
+    for i in range(1, round(n ** 0.5) + 1):
+        if i ** 2 == n:
             perfect_square = True
         if n % i == 0:
             divisors += 1
     if perfect_square:
-        return 2*divisors - 1
+        return 2 * divisors - 1
     else:
-        return 2*divisors
+        return 2 * divisors
+
 
 def triangle_n_divisors(n: int) -> int:
     """
@@ -69,6 +72,9 @@ def triangle_n_divisors(n: int) -> int:
         counter += 1
     return triangle_number_n
 
-if __name__ == '__main__':
-    print('The first triangle number with over 500 divisors is: ' +
-          str(triangle_n_divisors(500)))
+
+if __name__ == "__main__":
+    print(
+        "The first triangle number with over 500 divisors is: "
+        + str(triangle_n_divisors(500))
+    )

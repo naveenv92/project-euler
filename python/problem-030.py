@@ -15,10 +15,10 @@
 sumFifthPowers = 0
 
 for i in range(2, 354295):
-	total = 0
-	for j in str(i):
-		total += int(j)**5
-	if total == i:
-		sumFifthPowers += i
+    total = 0
+    for j in str(i):
+        total += int(j) ** 5
+    if total == i:
+        sumFifthPowers += i
 
-print('The sum of fifth power numbers is: ' + str(sumFifthPowers))
+print("The sum of fifth power numbers is: " + str(sumFifthPowers))

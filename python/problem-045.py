@@ -11,23 +11,28 @@
 
 # Function to determine if pentagonal number. n:int -> boolean
 def isPentagonal(n):
-	if (1 + (1 + 24*n)**0.5) % 6 == 0:
-		return True
-	else:
-		return False
+    if (1 + (1 + 24 * n) ** 0.5) % 6 == 0:
+        return True
+    else:
+        return False
+
 
 # Function to determine if hexagonal number. n:int -> boolean
 def isHexagonal(n):
-	if (1 + (1 + 8*n)**0.5) % 4 == 0:
-		return True
-	else:
-		return False
+    if (1 + (1 + 8 * n) ** 0.5) % 4 == 0:
+        return True
+    else:
+        return False
+
 
 counter = 286
 while True:
-	triNum = counter*(counter + 1)/2
-	if isPentagonal(triNum) and isHexagonal(triNum):
-		break
-	counter += 1
+    triNum = counter * (counter + 1) / 2
+    if isPentagonal(triNum) and isHexagonal(triNum):
+        break
+    counter += 1
 
-print('The next number that is triangular, pentagonal, and hexagonal is: ' + str(triNum))
+print(
+    "The next number that is triangular, pentagonal, and hexagonal is: "
+    + str(triNum)
+)

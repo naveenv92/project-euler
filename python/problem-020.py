@@ -9,6 +9,7 @@ digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
 Find the sum of the digits in the number 100!
 """
 
+
 def factorial(n: int) -> int:
     """
     Parameters
@@ -21,9 +22,10 @@ def factorial(n: int) -> int:
     if n == 0:
         return 1
     else:
-        for i in range(1, n+1):
+        for i in range(1, n + 1):
             factorial *= i
     return factorial
+
 
 def digit_sum(n: int) -> int:
     """
@@ -38,5 +40,6 @@ def digit_sum(n: int) -> int:
         digit_sum += int(i)
     return digit_sum
 
-if __name__ == '__main__':
-    print('Sum of digits in 100!: %i' % digit_sum(factorial(100)))
+
+if __name__ == "__main__":
+    print("Sum of digits in 100!: %i" % digit_sum(factorial(100)))

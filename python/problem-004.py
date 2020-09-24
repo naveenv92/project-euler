@@ -7,6 +7,7 @@ made from the product of two 2-digit numbers is 9009 = 91 × 99.
 Find the largest palindrome made from the product of two 3-digit numbers.
 """
 
+
 def is_palindrome(n: int) -> bool:
     """
     Parameters
@@ -19,13 +20,14 @@ def is_palindrome(n: int) -> bool:
         return True
     return False
 
+
 def largest_palindrome(low: int, high: int) -> int:
     """
     Parameters
         low (int): low integer of range
         high (int): high integer of range
     Returns
-        largest_palindrome (int): largest palindrome product of 
+        largest_palindrome (int): largest palindrome product of
                                   values in [low, high]
     """
 
@@ -33,10 +35,13 @@ def largest_palindrome(low: int, high: int) -> int:
 
     for i in range(low, high):
         for j in range(low, high):
-            if is_palindrome(i*j) and (i*j) > largest_palindrome:
-                largest_palindrome = i*j
+            if is_palindrome(i * j) and (i * j) > largest_palindrome:
+                largest_palindrome = i * j
     return largest_palindrome
 
-if __name__ == '__main__':
-    print('The largest palindrome product of three-digit numbers is: ' 
-            + str(largest_palindrome(100, 1000)))
+
+if __name__ == "__main__":
+    print(
+        "The largest palindrome product of three-digit numbers is: "
+        + str(largest_palindrome(100, 1000))
+    )

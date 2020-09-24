@@ -14,6 +14,7 @@ Find the difference between the sum of the squares of the first one
 hundred natural numbers and the square of the sum.
 """
 
+
 def sum_square_diff(n: int) -> int:
     """
     Parameters
@@ -22,10 +23,12 @@ def sum_square_diff(n: int) -> int:
         sum square difference of [0, n)
     """
 
-    sum_square = sum([i**2 for i in range(n)])
-    square_sum = sum(range(n))**2
+    sum_square = sum([i ** 2 for i in range(n)])
+    square_sum = sum(range(n)) ** 2
     return square_sum - sum_square
 
-if __name__ == '__main__':
-    print('The sum square difference of 1-100 is: ' + 
-          str(sum_square_diff(101)))
+
+if __name__ == "__main__":
+    print(
+        "The sum square difference of 1-100 is: " + str(sum_square_diff(101))
+    )

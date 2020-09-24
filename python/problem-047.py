@@ -15,36 +15,38 @@ from typing import List, Set
 
 # Function to determine if prime
 def isPrime(n: int) -> bool:
-	if n < 2:
-		return False
-	elif n == 2:
-		return True
-	else:
-		i = 2
-		while i**2 <= n:
-			if n % i == 0:
-				return False
-			i += 1
-		return True
+    if n < 2:
+        return False
+    elif n == 2:
+        return True
+    else:
+        i = 2
+        while i ** 2 <= n:
+            if n % i == 0:
+                return False
+            i += 1
+        return True
+
 
 # Function to do prime factorization
 def primeFactorization(n: int, primes: List[int]) -> Set[int]:
-	i = 0
-	pf = set()
-	while True:
-		if i == len(primes):
-			break
-		if n == 1:
-			break
-		if n in primes:
-			pf.add(n)
-			break
-		if n % primes[i] == 0:
-			pf.add(primes[i])
-			n /= primes[i]
-		else:
-			i += 1
-	return pf
+    i = 0
+    pf = set()
+    while True:
+        if i == len(primes):
+            break
+        if n == 1:
+            break
+        if n in primes:
+            pf.add(n)
+            break
+        if n % primes[i] == 0:
+            pf.add(primes[i])
+            n /= primes[i]
+        else:
+            i += 1
+    return pf
+
 
 # Create list of primes
 primes = [i for i in range(1001) if isPrime(i)]
@@ -53,15 +55,14 @@ primes = [i for i in range(1001) if isPrime(i)]
 num = 100000
 first_num = 0
 while True:
-	if num > 200000:
-		break
-	if len(primeFactorization(num, primes)) == 4:
-		if len(primeFactorization(num + 1, primes)) == 4:
-			if len(primeFactorization(num + 2, primes)) == 4:
-				if len(primeFactorization(num + 3, primes)) == 4:
-					first_num = num
-					break
-	num += 1
+    if num > 200000:
+        break
+    if len(primeFactorization(num, primes)) == 4:
+        if len(primeFactorization(num + 1, primes)) == 4:
+            if len(primeFactorization(num + 2, primes)) == 4:
+                if len(primeFactorization(num + 3, primes)) == 4:
+                    first_num = num
+                    break
+    num += 1
 
-print('The first number in the four consecutive numbers is: ' + str(first_num))
-
+print("The first number in the four consecutive numbers is: " + str(first_num))

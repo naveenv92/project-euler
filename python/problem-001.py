@@ -7,6 +7,7 @@ we get 3, 5, 6, and 9. The sum of these multiples is 23.
 Find the sum of all the multiples of 3 or 5 below 1000.
 """
 
+
 def sum_of_multiples(n: int) -> int:
     """
     Parameters
@@ -21,6 +22,9 @@ def sum_of_multiples(n: int) -> int:
             total += i
     return total
 
-if __name__ == '__main__':
-    print('The sum of multiples of 3 or 5 below 1000 is: ' +
-          str(sum_of_multiples(1000)))
+
+if __name__ == "__main__":
+    print(
+        "The sum of multiples of 3 or 5 below 1000 is: "
+        + str(sum_of_multiples(1000))
+    )

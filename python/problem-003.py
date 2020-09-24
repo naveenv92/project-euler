@@ -8,6 +8,7 @@ What is the largest prime factor of the number 600851475143?
 
 import numpy as np
 
+
 def is_prime(n: int) -> bool:
     """
     Parameters
@@ -22,6 +23,7 @@ def is_prime(n: int) -> bool:
         if n % i == 0:
             return False
     return True
+
 
 def largest_prime_factor(n: int) -> int:
     """
@@ -39,6 +41,9 @@ def largest_prime_factor(n: int) -> int:
                 largest_factor = i
     return largest_factor
 
-if __name__ == '__main__':
-    print('The largest prime factor of 600851475143 is: ' + 
-            str(largest_prime_factor(600851475143)))
+
+if __name__ == "__main__":
+    print(
+        "The largest prime factor of 600851475143 is: "
+        + str(largest_prime_factor(600851475143))
+    )

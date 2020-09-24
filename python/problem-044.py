@@ -10,24 +10,25 @@
 
 # Function to determine if pentagonal number. n:int -> boolean
 def isPentagonal(n):
-	if (1 + (1 + 24*n)**0.5) % 6 == 0:
-		return True
-	else:
-		return False
+    if (1 + (1 + 24 * n) ** 0.5) % 6 == 0:
+        return True
+    else:
+        return False
+
 
 diff = 0
 counter = 1
 
 while True:
-	p_k = counter*(3*counter - 1)/2
-	for i in range(1, counter):
-		p_j = i*(3*i - 1)/2
-		if isPentagonal(p_k + p_j) and isPentagonal(p_k - p_j):
-			diff = p_k - p_j
-			break
-	if diff != 0:
-		break
-	counter += 1
+    p_k = counter * (3 * counter - 1) / 2
+    for i in range(1, counter):
+        p_j = i * (3 * i - 1) / 2
+        if isPentagonal(p_k + p_j) and isPentagonal(p_k - p_j):
+            diff = p_k - p_j
+            break
+    if diff != 0:
+        break
+    counter += 1
 
 
-print('Minimum pentagonal number difference is: ' + str(diff))
+print("Minimum pentagonal number difference is: " + str(diff))

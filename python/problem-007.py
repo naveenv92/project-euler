@@ -7,6 +7,7 @@ that the 6th prime is 13.
 What is the 10,001st prime number?
 """
 
+
 def is_prime(n: int) -> bool:
     """
     Parameters
@@ -20,10 +21,11 @@ def is_prime(n: int) -> bool:
     elif n == 2:
         return True
     else:
-        for i in range(2, round(n**0.5) + 1):
+        for i in range(2, round(n ** 0.5) + 1):
             if n % i == 0:
                 return False
         return True
+
 
 def nth_prime(n: int) -> int:
     """
@@ -44,5 +46,6 @@ def nth_prime(n: int) -> int:
         curr_n += 1
     return curr_n
 
-if __name__ == '__main__':
-    print('The 10,001st prime number is: ' + str(nth_prime(10001)))
+
+if __name__ == "__main__":
+    print("The 10,001st prime number is: " + str(nth_prime(10001)))

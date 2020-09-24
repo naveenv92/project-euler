@@ -17,29 +17,35 @@
 
 # Define function to determine repeating cycle length
 def isRepeating(d):
-	rem = []
-	dividend = 1
-	while True:
-		
-		while dividend < d:
-			dividend *= 10
-		
-		dividend %= d
-		if dividend == 0:
-			return 0
-		elif dividend not in rem:
-			rem.append(dividend)
-		else:
-			start = rem.index(dividend)
-			cycle_length = len(rem) - start
-			break
+    rem = []
+    dividend = 1
+    while True:
 
-	return cycle_length
+        while dividend < d:
+            dividend *= 10
+
+        dividend %= d
+        if dividend == 0:
+            return 0
+        elif dividend not in rem:
+            rem.append(dividend)
+        else:
+            start = rem.index(dividend)
+            cycle_length = len(rem) - start
+            break
+
+    return cycle_length
+
 
 max_d, max_cycle_length = 0, 0
 
 for i in range(1, 1000):
-	if isRepeating(i) > max_cycle_length:
-		max_d, max_cycle_length = i, isRepeating(i)
+    if isRepeating(i) > max_cycle_length:
+        max_d, max_cycle_length = i, isRepeating(i)
 
-print('The value with the longest recurring cycle is ' + str(max_d) + ' with a length of ' + str(max_cycle_length))
+print(
+    "The value with the longest recurring cycle is "
+    + str(max_d)
+    + " with a length of "
+    + str(max_cycle_length)
+)

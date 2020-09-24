@@ -8,29 +8,34 @@
 
 # Function to convert to binary. n:int -> string
 def convertToBinary(n):
-	binary = []
+    binary = []
 
-	if n == 0:
-		return [0]
+    if n == 0:
+        return [0]
 
-	while n != 0:
-		binary.append(n % 2)
-		n //= 2
-	
-	binary = ''.join([str(i) for i in binary])
-	return binary[::-1]
+    while n != 0:
+        binary.append(n % 2)
+        n //= 2
+
+    binary = "".join([str(i) for i in binary])
+    return binary[::-1]
+
 
 # Function to determine if palindrome. n:string -> boolean
 def isPalindrome(n):
-	if n == n[::-1]:
-		return True
-	else:
-		return False
+    if n == n[::-1]:
+        return True
+    else:
+        return False
+
 
 # Find sum of palindromes in base 2 and 10 below 1000000
 sumOfPalindromes = 0
 for i in range(1, 1000000):
-	if isPalindrome(str(i)) and isPalindrome(convertToBinary(i)):
-		sumOfPalindromes += i
+    if isPalindrome(str(i)) and isPalindrome(convertToBinary(i)):
+        sumOfPalindromes += i
 
-print('The sum of palindromes in base 2 and 10 below 1,000,000 is: ' + str(sumOfPalindromes))
+print(
+    "The sum of palindromes in base 2 and 10 below 1,000,000 is: "
+    + str(sumOfPalindromes)
+)

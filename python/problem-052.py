@@ -7,29 +7,30 @@
 
 # Function to determine if digits are the same
 def sameDigits(n: int, m: int) -> bool:
-	
-	if len(str(n)) != len(str(m)):
-		return False
 
-	digits = set()
-	
-	for i in str(n):
-		digits.add(int(i))
+    if len(str(n)) != len(str(m)):
+        return False
 
-	for i in str(m):
-		if int(i) in digits:
-			digits.remove(int(i))
+    digits = set()
 
-	return len(digits) == 0
+    for i in str(n):
+        digits.add(int(i))
+
+    for i in str(m):
+        if int(i) in digits:
+            digits.remove(int(i))
+
+    return len(digits) == 0
+
 
 n = 1
 while True:
-	if sameDigits(n, 2*n):
-		if sameDigits(n, 3*n):
-			if sameDigits(n, 4*n):
-				if sameDigits(n, 5*n):
-					if sameDigits(n, 6*n):
-						break
-	n += 1
+    if sameDigits(n, 2 * n):
+        if sameDigits(n, 3 * n):
+            if sameDigits(n, 4 * n):
+                if sameDigits(n, 5 * n):
+                    if sameDigits(n, 6 * n):
+                        break
+    n += 1
 
-print('The smallest integer x is: ' + str(n))
+print("The smallest integer x is: " + str(n))

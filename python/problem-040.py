@@ -9,12 +9,20 @@
 ### Solution
 
 number = 1
-decimal = ''
+decimal = ""
 
 while len(decimal) <= 1000000:
-	decimal = decimal + str(number)
-	number += 1
+    decimal = decimal + str(number)
+    number += 1
 
-product = int(decimal[0])*int(decimal[9])*int(decimal[99])*int(decimal[999])*int(decimal[9999])*int(decimal[99999])*int(decimal[999999])
+product = (
+    int(decimal[0])
+    * int(decimal[9])
+    * int(decimal[99])
+    * int(decimal[999])
+    * int(decimal[9999])
+    * int(decimal[99999])
+    * int(decimal[999999])
+)
 
-print('The product is: ' + str(product))
+print("The product is: " + str(product))

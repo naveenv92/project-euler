@@ -17,13 +17,13 @@ totalSum = 1
 layer = 1
 
 while True:
-	separation = 2*layer
-	for i in range(1, 5):
-		currNum += separation
-		totalSum += currNum
-	layer += 1
+    separation = 2 * layer
+    for i in range(1, 5):
+        currNum += separation
+        totalSum += currNum
+    layer += 1
 
-	if currNum >= 1001**2:
-		break
+    if currNum >= 1001 ** 2:
+        break
 
-print('Sum of diagonals for 1001 x 1001 spiral: ' + str(totalSum))
+print("Sum of diagonals for 1001 x 1001 spiral: " + str(totalSum))

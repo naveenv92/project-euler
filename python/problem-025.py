@@ -25,12 +25,12 @@ f_prev = 1
 currentIndex = 2
 
 while True:
-	currentIndex += 1
-	f_temp = f
-	f = f + f_prev
-	f_prev = f_temp
+    currentIndex += 1
+    f_temp = f
+    f = f + f_prev
+    f_prev = f_temp
 
-	if len(str(f)) == 1000:
-		break
+    if len(str(f)) == 1000:
+        break
 
 print("First Fibonacci term with 1000 digits: " + str(currentIndex))

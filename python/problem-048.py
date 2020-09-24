@@ -8,6 +8,6 @@
 selfPowerSum = 0
 
 for i in range(1, 1001):
-	selfPowerSum += i**i
+    selfPowerSum += i ** i
 
-print('The last ten digits are: ' + str(selfPowerSum)[-10:])
+print("The last ten digits are: " + str(selfPowerSum)[-10:])
