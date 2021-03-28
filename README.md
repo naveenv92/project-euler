@@ -9,8 +9,8 @@ My solutions for Project Euler problems
 | Problem | Title | Solution|
 |---------|-------|---------|
 |1|[Multiples of 3 and 5](https://projecteuler.net/problem=1)|[Python](./python/problem-001.py), [Java](./java/problem-1.java), [Go](./go/problem-001/problem-001.go)|
-|2|[Even Fibonacci Numbers](https://projecteuler.net/problem=2)|[Python](./python/problem-002.py), [Java](./java/problem-2.java)|
-|3|[Largest Prime Factor](https://projecteuler.net/problem=3)|[Python](./python/problem-003.py), [Java](./java/problem-3.java)|
+|2|[Even Fibonacci Numbers](https://projecteuler.net/problem=2)|[Python](./python/problem-002.py), [Java](./java/problem-2.java), [Go](./go/problem-002/problem-002.go)|
+|3|[Largest Prime Factor](https://projecteuler.net/problem=3)|[Python](./python/problem-003.py), [Java](./java/problem-3.java), [Go](./go/problem-003/problem-003.go)|
 |4|[Largest Palindrome Product](https://projecteuler.net/problem=4)|[Python](./python/problem-004.py), [Java](./java/problem-4.java)|
 |5|[Smallest Multiple](https://projecteuler.net/problem=5)|[Python](./python/problem-005/py), [Java](./java/problem-5.java)|
 |6|[Sum Square Difference](https://projecteuler.net/problem=6)|[Python](./python/problem-006.py), [Java](./java/problem-6.java)|
